@@ -1,6 +1,7 @@
 # sum of two numbers
 import logging
 
+
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 
 
@@ -9,7 +10,7 @@ def main():
         a = int(input("Enter first number: "))
         b = int(input("Enter second number: "))
     except ValueError:
-        logging.error("Bad input ")
+        logging.error("error")
     else:
         logging.info("sum = %s", a + b)
 
